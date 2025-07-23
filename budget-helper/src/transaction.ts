@@ -166,9 +166,9 @@ export async function ProcessTransactions(fileContent) {
         transaction.Year,
         transaction.Date,
         transaction.Account,
-        transaction.Description,
+        transaction.Expense,
         transaction.Amount,
-        transaction.Memo,
-        transaction.Expense
+        transaction.Description,
+        transaction.Memo
     ]);
 }
